@@ -1,0 +1,304 @@
+.body {
+    margin-left: auto; 
+    margin-right: auto;
+    width: 94%;
+    height: auto; 
+    position: relative;  
+    background-image: url("../Assets/Images/dark-honeycomb.png");
+    max-width: 960px;
+    margin: auto;
+}
+
+
+.header {
+    padding: 61px;
+    text-align: center;
+    background: #ffffff;
+    color: white;
+    font-size: 30px;
+    width: 960px;
+    margin-top: 20px;
+    text-shadow: 1px 1px black;
+  }
+  
+ 
+ 
+.navigation {
+    float: right;
+   
+    display: inline; 
+    color: #b5a8a1; 
+    
+}
+
+.name {
+    color: antiquewhite;
+    background-color: #aa4a4f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left; 
+    margin: auto;
+    padding: 13px; 
+    position: static;
+
+}
+
+
+
+a {
+    color: darkgrey; 
+    text-decoration: none; 
+    font-size: 20px;
+
+}
+
+.maincontent {
+    background-color: #ffffff; 
+    width: 960px; 
+    border-style: solid; 
+    border: 10px;
+    border-color: #dddddd; 
+    height: 450px;
+    margin: auto;
+    margin-bottom: 55px;
+}
+
+
+.AboutMe {
+    clear: both;
+    overflow: auto;
+    position: static;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px; 
+    color: #4aaaa5;
+    margin-left: 10px; 
+    
+}
+
+
+.footer {
+    width: 100%;
+    height: 35px; 
+    color: white;
+    background-color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    position: fixed; 
+    bottom:0;          
+    left:0; 
+    border-top: 8px solid #4aaaa5;
+    
+}
+
+hr {
+    width: 90%;
+    height: 1px;
+    color: #4aaaa5;
+}
+
+h4 {
+    color: #dddddd;
+    background-color: #4aaaa5;
+}
+
+#img {
+    width: 200px;
+    height: 250px;
+    float: left; 
+    border-radius: 22%;
+    border-style: double;
+    border-color: black;
+    margin-right: 10px;
+  
+}
+
+
+
+.form {
+    padding: 35px;
+  }
+  
+  input {
+    width: 99%;
+  }
+  
+  input[type="submit"] {
+      background-color: #4aaaa5;
+      color: #777777;
+      width: 65px;
+      height: 25px;
+      
+}
+
+textarea[name="message"] {
+    height: 75px;
+    width: 99%; 
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .portfolios { 
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    color: #dddddd;
+  }
+
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+
+  }
+
+  .imgportfolio {
+    width: 125px;
+    height: 112px;
+    margin-right: 10px;
+    
+    box-shadow: 2px 2px 2px 2px black;
+  }
+  
+ h3 {
+   color: black;
+   font-weight: 200; 
+   position: relative;
+   margin-left: 0px;
+   bottom: -100px;
+   background-color: #4aaaa5;
+   background-size: 80px;
+  
+   width: 125px;
+ }
+ 
+
+ * {
+   box-sizing: border-box;
+   margin: 0%;
+ }
+
+
+
+ @media screen and (max-width: 980px) {
+  .header {
+      width: 100%;
+      margin-right: 0%;
+      margin-left: 0%;
+  }
+  .maincontent {
+      width: 100%;
+      padding:0;
+      margin-left: 0%;
+  }
+
+
+}
+
+ @media screen and (max-width: 768px) {
+
+  .body {
+    width: 100%;
+    
+  }
+
+  .header {
+    width: 100%; 
+    position: static;
+    
+   
+  }
+
+  .name {
+    min-width: 100%;
+    margin-top: -50px;
+
+    
+  }
+
+  .navigation {
+    min-width: 100%;
+    text-align: center;
+    
+    
+  }
+
+  .myparagraph {
+    position: relative;
+    
+
+  }
+
+  .portfolios {
+    float: none;
+     
+  }
+
+  .maincontent {
+    height: 100%;
+  }
+
+
+@media screen and (max-width: 640px) {
+  .body {
+    width: 100%;
+    
+  }
+
+  .header {
+    width: 100%; 
+    position: static;
+    
+   
+  }
+
+  .name {
+    min-width: 100%;
+    margin-top: -50px;
+
+    
+  }
+
+  .navigation {
+    min-width: 100%;
+    text-align: center;
+    
+    
+  }
+
+  .myparagraph {
+    position: relative;
+    
+
+  }
+
+  .portfolios {
+    float: none;  
+  }
+
+
+  .maincontent {
+    height: 100%;
+  }
+  
+
+}
+
+
+ /*
+ h3 {
+   position: relative;
+   bottom: -120px;
+   width: 100px;
+   background-color: #4aaaa5;
+   text-align: center;
+ }
+*/
