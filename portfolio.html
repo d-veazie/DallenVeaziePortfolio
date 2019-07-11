@@ -165,3 +165,32 @@
     
     </body>
     </html>
+
+
+
+    
+  var firebaseConfig = {
+    apiKey: "AIzaSyCTzdlG92qed3YmS5dj7Ozmybr1tvSS7Ms",
+    authDomain: "portfolio-info-tracker.firebaseapp.com",
+    databaseURL: "https://portfolio-info-tracker.firebaseio.com",
+    projectId: "portfolio-info-tracker",
+    storageBucket: "",
+    messagingSenderId: "322570416277",
+    appId: "1:322570416277:web:9939d82bab3d7c2b"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+
+  let messagesRef = firebase.database().ref('messages');
+
+
+
+  function saveMessage(name, email, message) {
+    let newMessageRef = messagesRef.push();
+    newMessageRef.set({
+        name: name, 
+        email: email,
+        message: message,
+    });
+}
