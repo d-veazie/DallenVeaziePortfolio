@@ -187,13 +187,14 @@ h2 {
 #footer-text {
   font-size: 16px;
   float: right;
-  margin-top: 10px;
+  margin-top: 0px;
   color: black;
   font-family: 'Permanent Marker', cursive;
+  float: none;
 }
 
 .footer-links {
-  float: left;
+  float: none;
 }
 
 #SC {
@@ -244,11 +245,11 @@ h4 {
 }
 
 
-
-
 .form {
   padding: 35px;
-  color: #aa4a4f
+  color: #aa4a4f;
+  margin-bottom: 55px;
+  
 }
 
 input {
@@ -328,6 +329,28 @@ h3 {
   font-family: 'Permanent Marker', cursive;
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #aa4a4f;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 
 * {
  box-sizing: border-box;
