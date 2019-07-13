@@ -11,6 +11,8 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
+  // firebase functions in order to track submitted form data
+
   let messagesRef = firebase.database().ref('messages');
 
 

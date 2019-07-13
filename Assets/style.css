@@ -49,6 +49,12 @@
   text-decoration: underline;
 }
 
+.card-link:hover {
+  color: #aa4a4f;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 ul {
   color: #aa4a4f;
 }
@@ -262,6 +268,15 @@ input[type="submit"] {
     width: 65px;
     height: 25px;
     
+}
+
+input[type="submit"]:hover {
+  background-color: #aa4a4f;
+  color: black;
+  width: 65px;
+  height: 25px;
+  cursor: pointer;
+  
 }
 
 textarea[name="message"] {
