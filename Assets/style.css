@@ -174,11 +174,19 @@ h2 {
   text-decoration: underline;
 }
 
+#Liri {
+  color: #aa4a4f;
+  font-size: 36px;
+  text-shadow: black 8px;
+  font-family: 'Electrolize', sans-serif;
+  text-decoration: underline wavy;
+}
+
 .footer {
   width: 100%;
   max-height: auto; 
   color: white;
-  background-color: #666666;
+  background-image: url("../Assets/Images/dark-honeycomb.png");
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   padding: 10px;
