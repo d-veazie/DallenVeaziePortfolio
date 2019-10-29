@@ -182,6 +182,14 @@ h2 {
   text-decoration: underline wavy;
 }
 
+#recRenter {
+  color: #aa4a4f;
+  font-size: 36px; 
+  text-shadow: black 8px;
+  font-family: 'Alfa Slab One', cursive;
+  text-decoration: underline;
+}
+
 .footer {
   width: 100%;
   max-height: auto; 
