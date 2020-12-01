@@ -15,7 +15,9 @@
 
 .myparagraph {
   padding: 10px; 
-  font-family:  'Permanent Marker', cursive;
+  font-family:  'Lobster';
+  text-align: center;
+  
 }
 
 .card {
@@ -150,8 +152,10 @@ h2 {
   position: static;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 40px; 
-  color:  #aa4a4f;
+  /* color:  #aa4a4f; */
+  color: black;
   margin-left: 10px; 
+  text-align: center;
   
 }
 
